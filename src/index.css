@@ -1,0 +1,85 @@
+body {
+  background-color: #051c2c;
+  max-width: 532px;
+  margin: auto;
+  align-items: center;
+}
+
+.text {
+  font-size: 16px; 
+  color: #ffffff;
+  position: absolute;
+}
+
+  .center{
+    max-width: 500px;
+    margin: auto;
+    align-items: center;
+    display: table;
+    }
+    .circle-container{
+      margin-top: 40px;
+      display: table;
+      }
+
+.button {
+  margin-top: 20px;
+  background: #051c2c;
+  padding: 1em;
+  color: white;
+  border: 1px solid white;
+}
+
+.button.toggled {
+  background: rgb(255, 255, 255);
+  color: black;
+}
+.outer-circle {
+  display: flex;
+  width: 164px;
+  height: 164px;
+  border: 2px solid white;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  /* margin: 0 auto; */
+  justify-content: center;
+}
+
+.inner-circle.one, .inner-circle.two, .inner-circle.three, .inner-circle.four {
+  display: flex;
+  justify-content: center;
+  background-color: #00a9f4;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center; 
+}
+
+.inner-circle.four {
+  width: 162px;
+  height: 162px;
+  opacity: 1;
+}
+
+.inner-circle.three {
+  width: 121px;
+  height: 121px;
+  opacity: 0.7;
+}
+
+.inner-circle.two {
+  width: 79px;
+  height: 79px;
+  opacity: 0.4;
+}
+
+.inner-circle.one {
+  width: 38px;
+  height: 38px;
+  opacity: 0.2;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
